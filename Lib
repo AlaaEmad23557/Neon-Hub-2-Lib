@@ -1,6 +1,6 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AlaaEmad23557/Neon-Hub-2-Lib/main/Lib')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AlaaEmad23557/Neon-Hub-Lib/main/Lib')))()
 local Player = game.Players.LocalPlayer
-local Window = OrionLib:MakeWindow({Name = "Neon Hub Key System", HidePremium = false, SaveConfig = true, IntroEnable = false})
+local Window = OrionLib:MakeWindow({Name = "Neon Hub 2 Key System", HidePremium = false, SaveConfig = true, IntroEnable = false})
 
 OrionLib:MakeNotification({
 	Name = " Key",
@@ -868,42 +868,6 @@ function MakeScriptHub()
 		PremiumOnly = false
 	})
 
-	Tab:AddButton({
-		Name = "RX5",
-		Callback = function()
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/pcallskeleton/CE-Technologies/main/script', true))()
-		end    
-	})
-
-	Tab:AddButton({
-		Name = "Folder Hub",
-		Callback = function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Gregory909/FolderGui-FolderHub/main/loader.lua", true))()
-		end    
-	})
-
-	Tab:AddButton({
-		Name = "Tbao Hub",
-		Callback = function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurderMystery2"))()
-		end    
-	})
-
-	Tab:AddButton({
-		Name = "Murder Mystery 2 OP SCRIPT",
-		Callback = function()
-			local a,b,c,d=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,"https://itsjidy.github.io/SymphonyHub/Loader.html"c(a and b, "Your Executor does not support.")a(b({Url=d,Method="GET"}).Body)()
-		end    
-	})
-
-	Tab:AddButton({
-		Name = "Murder Mystery 2 (Eclipse HUB)",
-		Callback = function()
-			getgenv().mainKey = "nil"
-
-			local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
-		end    
-	})
 
 	Tab:AddButton({
 		Name = "EGG HUNT SCRIPT + invible",
@@ -911,6 +875,25 @@ function MakeScriptHub()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/eggs/main/MM2"))()
 		end    
 	})
+
+	Tab:AddButton({
+		Name = "Vynixu's MM2",
+		Callback = function()
+			loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+		end    
+	})
+
+	Tab:AddButton({
+		Name = "MM2 Script Blue Hub",
+		Callback = function()
+			loadstring(game:HttpGet('https://pastebin.com/raw/570n54Au'))()
+		end    
+	})
+
+
+
+
+	
 
 	local Tab = Window:MakeTab({
 		Name = "Death Ball",
